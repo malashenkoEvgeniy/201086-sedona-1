@@ -5,8 +5,103 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+		<header class="main-header">
+      <nav class="main-navigation">
+       	<a class="main-header-logo"><img src="#" alt="Logo"></a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Фото и видео</a></li>
+          <li><a href="price.html">Карта штата</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
+         </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="visually-hidden">Седона</h1> 
+      <p class="main-leed"><b>СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</b></p>     
+      <p class="leed-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <section class="all-features">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <section class="first-features">
+        	<h3 class="visually-hidden">Первое преимущество</h3>
+        	<img src="img/punkt1.png" width="281" height="146" alt="first-features">
+					<div class="bg-town"></div>
+				</section>
+       <section class="first-features-description">
+					<div class="house feature">
+						<h3>Жилье</h3>
+						<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+					</div>
+					<div class="food feature">
+						<h3>Еда</h3>
+						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+					</div>
+					<div class="souvenir feature">
+						<h3>Сувениры</h3>
+						<p>не только китайского, но и местного производства!</p>
+					</div>
+				</section>
+				<section class="second-features">
+					<h3 class="visually-hidden">Второе преимущество</h3>
+					<div class="devils-bridge"></div>
+					<img src="img/punkt2.png" width="302" height="142" alt="second-features">
+				</section>
+       	<section class="others-features">
+					<h3 class="visually-hidden">Остальные преимущества</h3>
+					<img src="img/punkt3.png" width="208" height="143" alt="punkt3">
+					<img src="img/punkt4.png" width="262" height="142" alt="punkt4">
+					<img src="img/punkt5.png" width="260" height="142" alt="punkt5">
+				</section>
+		 </section>
+		 <p class="indefication-of-needs"><b>Заинтересовались?</b></p>
+		 <p class="offer">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложение гостиниц в Седоне</p>
+				<div class="pre-order">
+					<input type="button" name="sourch-btn" class="sourch-btn" value="Поиск гостиницы в Седоне">
+					<form class="search-form" action="#" method="post" >
+						<table>
+							<tr>
+								<td>
+								<label> Дата заезда:</label></td>
+								<td colspan="3"><input type="date" name="arrival-date"></td>
+							</tr>
+							<tr>
+								<td><label> Дата выезда:</label></td>
+								<td colspan="3"><input type="date" name="date-of-departure"></td>
+							</tr>
+							<tr>
+								<td><label> Взрослые:</label>	</td>
+								<td>
+								<a href="#">назад</a>						
+								<output name="number-of-adults"></output>
+									<a href="#">вперед</a></td>
+								<td><label> Дети:</label></td>
+								<td><a href="#">назад</a>
+								<output name="number-of-child"></output> 
+									<a href="#">вперед</a></td>
+							</tr>
+						</table>
+						<div class="sorch-submit sort-in-sorch">
+							<input type="submit" name="sorch" value="НАЙТИ">
+						</div>
+					</form>
+				</div>
+				<div class="map-navigation">
+					<img src="img/map.jpg" width="1200" height="593" alt="map">
+				</div>
+    </main>
+    <footer class="main-footer">
+				<div class="name-site">#visitsedona</div>
+				<div class="social">
+					<ul>
+						<li><a class="tw" href="">Твитер</a></li>
+						<li><a class="fb" href="">Фейсбук</a></li>
+						<li><a class="ut" href="">Ютюб</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					website by
+					<a href="#">HTML academy</a>
+				</div>
+			</footer>
   </body>
 </html>
