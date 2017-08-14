@@ -3,58 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    	<link rel="stylesheet" href="css/normolize.css">
+     	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 		<header class="main-header">
       <nav class="main-navigation">
-       	<a class="main-header-logo"><img src="#" alt="Logo"></a>
+       	<a class="main-header-logo"><img src="img/upper-logo.png" width="138" height="70" alt="Logo"></a>
         <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Фото и видео</a></li>
-          <li><a href="price.html">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
+          <li><a class="site-navigation-item info-item" href="info.html">Информация</a></li>
+          <li><a class="site-navigation-item photo-video-item" href="news.html">Фото и видео</a></li>
+          <li><a class="site-navigation-item price-item" href="price.html">Карта штата</a></li>
+          <li><a class="site-navigation-item catalog-item" href="catalog.html">Гостиницы</a></li>
          </ul>
       </nav>
     </header>
     <main class="container">
       <h1 class="visually-hidden">Седона</h1> 
+      <div class="main-greeting">
+      	<img class="main-greeting-image" src="img/welcome.png"  width="458" height="352" alt="Main greeting">
+      </div>
       <p class="main-leed"><b>СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</b></p>     
       <p class="leed-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <section class="all-features">
         <h2 class="visually-hidden">Преимущества</h2>
         <section class="first-features">
         	<h3 class="visually-hidden">Первое преимущество</h3>
-        	<img src="img/punkt1.png" width="281" height="146" alt="first-features">
+        	<img class="first-features-img" src="img/punkt1.png" width="281" height="146" alt="first-features">
 					<div class="bg-town"></div>
 				</section>
        <section class="first-features-description">
 					<div class="house feature">
-						<h3>Жилье</h3>
+						<h3 class="feature-head">Жилье</h3>
 						<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 					</div>
 					<div class="food feature">
-						<h3>Еда</h3>
+						<h3 class="feature-head">Еда</h3>
 						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 					</div>
 					<div class="souvenir feature">
-						<h3>Сувениры</h3>
+						<h3 class="feature-head">Сувениры</h3>
 						<p>не только китайского, но и местного производства!</p>
 					</div>
 				</section>
 				<section class="second-features">
 					<h3 class="visually-hidden">Второе преимущество</h3>
 					<div class="devils-bridge"></div>
-					<img src="img/punkt2.png" width="302" height="142" alt="second-features">
+					<img class="second-features-img" src="img/punkt2.png" width="302" height="142" alt="second-features">
 				</section>
        	<section class="others-features">
 					<h3 class="visually-hidden">Остальные преимущества</h3>
-					<img src="img/punkt3.png" width="208" height="143" alt="punkt3">
-					<img src="img/punkt4.png" width="262" height="142" alt="punkt4">
-					<img src="img/punkt5.png" width="260" height="142" alt="punkt5">
+					<img class="others-features-punkt3" src="img/punkt3.png" width="208" height="143" alt="punkt3">
+					<img class="others-features-punkt4" src="img/punkt4.png" width="262" height="142" alt="punkt4">
+					<img class="others-features-punkt5" src="img/punkt5.png" width="260" height="142" alt="punkt5">
 				</section>
 		 </section>
 		 <p class="indefication-of-needs"><b>Заинтересовались?</b></p>
-		 <p class="offer">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложение гостиниц в Седоне</p>
+		 <p class="offer">Укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложение гостиниц в Седоне</p>
 				<div class="pre-order">
 					<input type="button" name="sourch-btn" class="sourch-btn" value="Поиск гостиницы в Седоне">
 					<form class="search-form" action="#" method="post" >

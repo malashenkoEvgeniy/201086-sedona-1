@@ -1,0 +1,247 @@
+body {
+	min-width: 768px;
+	max-width: 1200px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: "PT Sans", "Arial", sans-serif;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+body a  {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-family: "PT Sans", "Arial", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+
+.main-navigation {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.main-header-logo {
+	position: absolute;
+	top: -5px;
+	left: 532px;
+	z-index: 999;
+}
+
+.site-navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2px;
+	padding: 0;
+	list-style: none;
+}
+
+.site-navigation-item {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	margin-bottom: -10px;
+}
+
+.info-item {
+	margin-left: 62px;
+	
+}
+
+.catalog-item {
+	margin-right: 60px;
+}
+
+.photo-video-item {
+	margin-right: 240px;
+}
+
+.price-item {
+	margin-right: 20px;
+}
+
+.main-greeting {
+	position: relative;
+	width: 100%;
+	min-height: 510px;
+	margin: 0 auto;
+	background:  url("../img/main-bg.jpg") 0 -80px;
+	background-size: cover;
+}
+
+.main-greeting::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 57px;
+	bottom: 0;
+	left: 0;
+	background:  url("../img/mask-bg.png");
+}
+
+.main-greeting-image {
+	display: block;
+	width: 458px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+.main-leed {
+	display: block;
+	vertical-align: top;
+	width: 450px;
+	text-align: center;
+	font-size: 21px;
+	line-height: 26px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
+.leed-description {
+	display: block;
+	vertical-align: top;
+	width: 490px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.first-features {
+	display: flex;
+	justify-content: space-between;
+	background-color: #81b3d2;
+	min-height: 260px;
+	margin-bottom: 135px;
+}
+
+.first-features-img {
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.bg-town {
+	background: green url("../img/bg-town.png") 0 -76px;
+	width: 800px;
+	min-height: 146px;
+	background-size: cover;
+}
+
+.first-features-description {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.feature {
+	position: relative;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 70px;
+}
+
+.feature::before {
+	content: "";
+	position: absolute;
+	top: -80px;
+	left: 100px;
+	width: 76px;
+	height: 76px;
+	background: #ffffff url("../img/sprite.png") no-repeat;
+}
+
+.house::before {
+	background-position: -8px -595px; 
+}
+
+.food::before {
+	background-position: -6px -505px; 
+}
+
+.souvenir::before {
+	background-position: -2px -692px; 
+}
+
+
+.feature-head {
+	font-size: 21px;
+	margin-bottom: 25px;
+}
+
+.house {
+	width: 280px;
+	margin-left: 57px;
+	padding-top: 1px
+}
+
+.food {
+	width: 290px;
+}
+
+.souvenir {
+	width: 280px;
+	margin-right: 62px;
+}
+
+.second-features {
+	display: flex;
+	justify-content: space-between;
+	background-color: #81b3d2;
+	min-height: 255px;
+	
+}
+
+.devils-bridge {
+	background: green url("../img/devils-bridge.png") 0 -76px;
+	width: 800px;
+	min-height: 146px;
+	background-size: cover;
+}
+
+.second-features-img {
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.others-features {
+	display: flex;
+	justify-content: space-between;
+	background-color: #eeeeee;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.others-features-punkt3 {
+	margin-left: 95px;
+}
+
+.others-features-punkt5 {
+	margin-right: 70px;
+}
+
+.indefication-of-needs {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.offer {
+	width: 450px;
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+	margin: 0 auto;
+}
