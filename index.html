@@ -91,28 +91,24 @@
 				<div class="pre-order">
 					<input type="button" name="sourch-btn" class="sourch-btn" value="Поиск гостиницы в Седоне">
 					<form class="search-form" action="#" method="post" >
-						<table>
-							<tr>
-								<td>
-								<label> Дата заезда:</label></td>
-								<td colspan="3"><input type="date" name="arrival-date"></td>
-							</tr>
-							<tr>
-								<td><label> Дата выезда:</label></td>
-								<td colspan="3"><input type="date" name="date-of-departure"></td>
-							</tr>
-							<tr>
-								<td><label> Взрослые:</label>	</td>
-								<td>
-								<a href="#">назад</a>						
-								<output name="number-of-adults"></output>
-									<a href="#">вперед</a></td>
-								<td><label> Дети:</label></td>
-								<td><a href="#">назад</a>
-								<output name="number-of-child"></output> 
-									<a href="#">вперед</a></td>
-							</tr>
-						</table>
+						<div class="data-arrival">
+							<label> Дата заезда:</label>
+							<input type="date" name="arrival-date">
+						</div>
+						<div class="date-of-departure">
+							<label> Дата выезда:</label>
+							<input type="date" name="date-of-departure">
+						</div>
+						<div class="number-tourists">
+							<label> Взрослые:</label>	
+							<a href="#">назад</a>						
+							<output name="number-of-adults"></output>
+							<a href="#">вперед</a>
+							<label> Дети:</label>
+							<a href="#">назад</a>
+							<output name="number-of-child"></output> 
+							<a href="#">вперед</a>
+						</div>
 						<div class="sorch-submit sort-in-sorch">
 							<input type="submit" name="sorch" value="НАЙТИ">
 						</div>
