@@ -8,14 +8,13 @@
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+  	<div class="wrapper">
 		<header class="main-header">
      	<div class="container">
+     		<a class="main-header-logo"><img src="img/logo.png" width="138" height="70" alt="Logo"></a>
       	<nav class="main-navigation">
       		<ul class="site-navigation">
-      			<li>
-       				<a class="main-header-logo"><img src="img/upper-logo.png" width="138" height="70" alt="Logo"></a>
-        		</li>
-          	<li><a class="site-navigation-item info-item" href="#">Информация</a></li>
+      			<li><a class="site-navigation-item info-item" href="#">Информация</a></li>
           	<li><a class="site-navigation-item photo-video-item" href="#">Фото и видео</a></li>
           	<li><a class="site-navigation-item price-item" href="#">Карта штата</a></li>
           	<li><a class="site-navigation-item catalog-item" href="sedona-hotels.html">Гостиницы</a></li>
@@ -27,20 +26,21 @@
      	<div class="container-wrapper">
       <h1 class="visually-hidden">Седона</h1> 
       <div class="main-greeting">
-      	<img class="main-greeting-image" src="img/welcome.png"  width="458" height="352" alt="Main greeting">
+      	<p class="main-leed"><b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b></p>     
+      	<p class="leed-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </div>
-      <p class="main-leed"><b>СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</b></p>     
-      <p class="leed-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <section class="all-features">
         <h2 class="visually-hidden">Преимущества</h2>
         <section class="first-features">
         	<h3 class="visually-hidden">Первое преимущество</h3>
         	<div class="first-features-wrapper">
-        		<h4 class="first-features-head">НАСТОЯЩИЙ ГОРОДОК</h4>
+        		<h4 class="first-features-head">Настоящий городок</h4>
 						<span class="first-features-number">№1</span>
-						<p class="first-features-text">СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>        	
+						<p class="first-features-text">Седона — не аттракцион для туристов, там течет своя жизнь</p>        	
 					</div>
-					<div class="bg-town"></div>
+					<div class="bg-town">
+						<img src="img/bg-town.jpg" width="800" height="256" alt="bg-town">
+					</div>
 				</section>
        <section class="first-features-description">
 					<div class="house feature">
@@ -58,9 +58,11 @@
 				</section>
 				<section class="second-features">
 					<h3 class="visually-hidden">Второе преимущество</h3>
-					<div class="devils-bridge"></div>
+					<div class="devils-bridge">
+						<img src="img/bg-canyon.jpg" width="800" height="256" alt="bg-canyon">
+					</div>
 					<div class="second-features-wrapper">
-        		<h4 class="second-features-head">ТАМ ЕСТЬ Мост дьявола</h4>
+        		<h4 class="second-features-head">Там есть мост дьявола</h4>
 						<span class="second-features-number">№2</span>
 						<p class="second-features-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>        	
 					</div>
@@ -69,18 +71,17 @@
        	<section class="others-features">
 					<h3 class="visually-hidden">Остальные преимущества</h3>
 					<div class="third-features-wrapper">
-        		<h4 class="third-features-head">НЕБОЛЬШАЯ ПЛОЩАДЬ</h4>
+        		<h4 class="third-features-head">Небольшая площадь</h4>
 						<span class="third-features-number">№3</span>
-						<p class="third-features-text">ВСЕ достопримечательности находятся очень близко</p>        	
+						<p class="third-features-text">Все достопримечательности находятся очень близко</p>        	
 					</div>
 					<div class="fourth-features-wrapper">
-        		<h4 class="fourth-features-head">КРАСИВАЯ ДОРОГА</h4>
+        		<h4 class="fourth-features-head">Красивая дорога</h4>
 						<span class="fourth-features-number">№4</span>
-						<p class="fourth-features-text">ХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем  НЕ СКУЧНО!</p>        	
+						<p class="fourth-features-text">Ехать в Седону из Лас-Вегаса совсем  не скучно !</p>        	
 					</div>
 					<div class="fifth-features-wrapper">
-        		<h4 class="fifth-features-head">МАЛО ТУРИСТОВ
- </h4>
+        		<h4 class="fifth-features-head">Мало туристов </h4>
 						<span class="fifth-features-number">№5</span>
 						<p class="fifth-features-text">Большинство едет в гранд каньон и толпится там</p>        	
 					</div>
@@ -89,8 +90,8 @@
 		 <p class="indefication-of-needs"><b>Заинтересовались?</b></p>
 		 <p class="offer">Укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложение гостиниц в Седоне</p>
 				<div class="pre-order">
-					<input type="button" name="sourch-btn" class="sourch-btn" value="Поиск гостиницы в Седоне">
-					<form class="search-form" action="#" method="post" >
+					<input type="button" name="search-btn" class="search-btn" value="Поиск гостиницы в Седоне">
+					<form class="search-form visually-hidden" action="#" method="post" >
 						<div class="data-arrival">
 							<label> Дата заезда:</label>
 							<input type="date" name="arrival-date">
@@ -115,7 +116,7 @@
 					</form>
 				</div>
 				<div class="map-navigation">
-					<img src="img/map.jpg" width="1200" height="593" alt="map">
+					<img src="img/main-map.jpg" width="1200" height="593" alt="map">
 				</div>
 			</div>
     </main>
@@ -123,15 +124,16 @@
 				<div class="name-site">#visitsedona</div>
 				<div class="social">
 					<ul class="social-list">
-						<li><a class="social-icon tw" href="#">Твитер</a></li>
-						<li><a class="social-icon fb" href="#">Фейсбук</a></li>
-						<li><a class="social-icon ut" href="#">Ютюб</a></li>
+						<li class="social-list-item"><a class="social-icon twitter" href="#">twitter</a></li>
+						<li class="social-list-item"><a class="social-icon facebook" href="#">facebook</a></li>
+						<li class="social-list-item"><a class="social-icon youtube" href="#">youtube</a></li>
 					</ul>
 				</div>
 				<div class="copyright">
-					website by
+					<span>website by</span>
 					<a href="#">HTML academy</a>
 				</div>
 			</footer>
+		</div>	
   </body>
 </html>
