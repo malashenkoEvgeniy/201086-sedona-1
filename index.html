@@ -56,7 +56,7 @@
 					<h3 class="visually-hidden">Второе преимущество</h3>
 						<img class="devils-bridge" src="img/bg-canyon.jpg" width="800" height="256" alt="bg-canyon">
 					<div class="second-features-wrapper">
-        		<h4 class="second-features-head">Там есть мост дьявола</h4>
+        		<h4 class="second-features-head">Там есть <br>мост дьявола</h4>
 						<span class="second-features-number">№2</span>
 						<p class="second-features-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 					</div>
@@ -87,27 +87,29 @@
 			<form class="search-form " action="#" method="post" >
 				<div class="data-arrival">
 					<label for="arrival-date"> Дата заезда:</label>
-					<input class="arrival-data" type="date" name="arrival-date" id="arrival-date">
+					<input class="arrival-data" type="text" name="arrival-date" id="arrival-date" value="24 Апреля 2017">
+					<span class="calendar-block"></span>
 				</div>
 				<div class="date-of-departure">
 					<label for="date-of-departure"> Дата выезда:</label>
-					<input class="date-departure" type="date" name="date-of-departure" id="date-of-departure">
+					<input class="date-departure" type="text" name="date-of-departure" id="date-of-departure"  value="4 июля 2017">
+					<span class="calendar-block"></span>
 				</div>
 				<div class="number-tourists">
 					<div class="number-tourists-adult" >
 						<label for="adult"> Взрослые:</label>
-						<div>
-						<button></button>
-						<input class="counter-visitors" type="text" id="adult">
-						<button></button>
+						<div class="counter-adult">
+						<button class="counter-down"></button>
+						<input class="counter-visitors" type="text" id="adult" value="2">
+						<button class="counter-up"></button>
 						</div>
 					</div>
 					<div class="number-tourists-child">
 						<label for="child"> Дети:</label>
-						<div>
-						<button></button>
-						<input class="counter-visitors" type="text" id="child">
-						<button></button>
+						<div class="counter-child">
+						<button class="counter-down"></button>
+						<input class="counter-visitors" type="text" id="child" value="0">
+						<button class="counter-up"></button>
 						</div>
 					</div>
 				</div>
