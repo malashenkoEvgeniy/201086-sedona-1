@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="wrapper">
-    	<header class="main-header">
+    	<header class="main-header main-header-hotel">
      		<nav class="main-navigation">
       		<a class="main-header-logo" href="index.html"><img src="img/logo.png" width="138" height="70" alt="Logo"></a>
       		<ul class="site-navigation">
@@ -70,26 +70,26 @@
     			</fieldset>
       </form>
       <div class="search-response">
-      	<h3 for="response">Найдено: 3</h3>
-        <p>СОРТИРОВКА:</p>
+      	<h3 class="response">Найдено: 3</h3>
+        <p class="response-description">СОРТИРОВКА:</p>
       	<div class="sort-in">
-      		<a href="#">По цене</a>
-      		<a href="#">По типу</a>
-      		<a href="#">По рейтингу</a>
+      		<a class="active" href="#">По цене</a>
+      		<a class="passive" href="#">По типу</a>
+      		<a class="passive" href="#">По рейтингу</a>
       	</div>
       	<div class="sort-up-down">
-      		<a class="sort-up" href="#">
+      		<a class="sort-up passive" href="#">
       		  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="currentColor" d="M5.5 0L0 10h11z"/></svg>
       		</a>
-      		<a class="sort-down" href="#">
+      		<a class="sort-down active" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="currentColor" d="M5.5 10L0 0h11"/></svg>
           </a>
       	</div>
       </div>
       <div class="search-result">
       	<div class="amara-resort-block">
-      		<img src="img/amara-resort.jpg" alt="Amara Resort & Spa">
-      		<div>
+      		<img class="amara-resort-picture" src="img/amara-resort.jpg" width="135" height="90" alt="Amara Resort & Spa">
+      		<div class="amara-desciption">
       			<h2>
       			  <a class="amara-header" href="#">Amara Resort &amp; Spa</a>
       			</h2>
@@ -120,13 +120,15 @@
       			  </span>
 
       			</div>
-      			<span>Рейтинг: 8,5</span>
+      			<span class="rating-hotel">Рейтинг: 8,5</span>
       		</div>
       	</div>
       	<div class="desert-quail-block">
-      		<img src="img/desert-quail.jpg" alt="desert-quail-table">
-      		<div>
-      			<h2>Desert Quail Inn</h2>
+      		<img class="desert-quail-picture" src="img/desert-quail.jpg" width="135" height="90" alt="desert-quail-table">
+      		<div class="desert-desciption">
+      			<h2>
+      			  <a class="desert-header" href="#">Desert Quail Inn</a>
+      		  </h2>
       			<div class="hotels-wrap">
       				<div class="hotel-block">
       					<span>Гостиница</span>
@@ -151,13 +153,15 @@
       			  </span>
 
       			</div>
-      			<span>Рейтинг: 8,9</span>
+      			<span class="rating-hotel">Рейтинг: 8,9</span>
       		</div>
       	</div>
       	<div class="villas-poco-block">
-      		<img src="img/villas-at-pocco.jpg" alt="villas-poco">
+      		<img class="villas-poco-picture"  src="img/villas-at-pocco.jpg" width="135" height="90" alt="villas-poco">
       		<div>
-      			<h2>Villas at Poco Diablo</h2>
+      			<h2>
+      			  <a class="villas-header" href="#">Villas at Poco Diablo</a>
+      			</h2>
       			<div class="hotels-wrap">
       				<div class="hotel-block">
       					<span>Гостиница</span>
@@ -178,7 +182,7 @@
       			    <img src="img/star.svg" width="18" height="17" alt="stars">
       			  </span>
       			</div>
-      			<span>Рейтинг: 9,2</span>
+      			<span class="rating-hotel">Рейтинг: 9,2</span>
       		</div>
       	</div>
       </div>
