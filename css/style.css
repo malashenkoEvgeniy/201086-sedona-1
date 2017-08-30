@@ -24,6 +24,7 @@ img {
 
 .wrapper {
   min-width: 768px;
+  margin-top: 3px;
 	max-width: 1200px;
   margin: 0 auto;
   padding: 0;
@@ -536,6 +537,13 @@ img {
   opacity: 0.3;
 }
 
+.map-navigation {
+  width: 1200px;
+  max-height: 475px;
+  overflow: hidden;
+}
+
+
 .filter-search {
 	display: flex;
 	justify-content: space-between;
@@ -915,12 +923,12 @@ img {
 .main-footer {
 	display: flex;
 	justify-content: space-between;
+  align-items: center;
 }
 
 .name-site {
 	width: 400px;
-  padding: 35px;
-  padding-left: 10px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -935,9 +943,7 @@ img {
 .social-list {
   display: flex;
   padding: 0;
-  padding-top: 25px;
-  padding-left: 50px;
-	margin: 1;
+
   list-style: none;
 }
 
@@ -998,8 +1004,7 @@ img {
 	position: relative;
 	display: flex;
 	width: 400px;
-	padding-top: 10px;
-  margin-top: 25px;
+
 }
 
 .copyright-link {
