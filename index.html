@@ -83,8 +83,8 @@
 		 </section>
 		 <div class="pre-order">
 		 	<p class="indefication-of-needs"><b>Заинтересовались?</b></p>
-		 	<p class="offer">Укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложение гостиниц в Седоне</p>
-			<input type="button" name="search-btn" class="search-btn" value="Поиск гостиницы в Седоне">
+		 	<p class="offer">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложение гостиниц в Седоне</p>
+       <button type="button" name="search-btn" class="search-btn">Поиск гостиницы в Седоне</button>
 			<form class="search-form " action="#" method="post" >
 				<div class="search-form-wrap">
           <div class="arrival-block">
@@ -100,15 +100,19 @@
           <div class="number-tourists">
 					  <div class="number-tourists-adult tourist-counter" >
 				      <label for="adult"> Взрослые:</label>
-				      <button class="counter-down" type="button"></button>
-					    <input class="counter-visitors" type="text" id="adult" value="2">
-					    <button class="counter-up" type="button"></button>
+				      <div class="counter-item">
+				        <button class="counter-down" type="button"></button>
+					      <input class="counter-visitors" type="text" id="adult" value="2">
+					      <button class="counter-up" type="button"></button>
+					    </div>
 					  </div>
 					  <div class="number-tourists-child tourist-counter">
 					    <label for="child"> Дети:</label>
-						  <button class="counter-down" type="button"></button>
-						  <input class="counter-visitors" type="text" id="child" value="0">
-						  <button class="counter-up" type="button"></button>
+					    <div class="counter-item">
+						    <button class="counter-down" type="button"></button>
+						    <input class="counter-visitors" type="text" id="child" value="0">
+						    <button class="counter-up" type="button"></button>
+						  </div>
 					  </div>
 				  </div>
 				</div>

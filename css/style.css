@@ -28,14 +28,9 @@ img {
   margin: 0 auto;
   padding: 0;
   background-color: #ffffff;
+  box-shadow: 0 0 15px 5px rgba(0, 1, 1, 0.2);
 
 }
-
-.wrapper-hottel {
-  margin-top: 6px;
-}
-
-
 
 .visually-hidden {
 	display: none;
@@ -64,25 +59,22 @@ img {
 	justify-content: space-between;
 	align-items: center;
   width: 1056px;
-  padding: 10px;
+  padding: 14px;
   margin: 0 auto;
-  padding-top: 8px;
+  padding-top: 14px;
   margin-bottom: 5px;
 	list-style: none;
 }
 
 .site-navigation li {
-
+  width: 20%;
 }
-/*чет я здесь намудрил*/
+
 
 .site-navigation li:nth-child(2) {
-  margin-right: 260px;
+  margin-right: 113px;
 }
 
-.site-navigation li:nth-child(3) {
-   margin-right: 15px;
-}
 
 .site-navigation-item {
 }
@@ -133,6 +125,7 @@ img {
 .main-greeting {
 	display: block;
 	margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .main-greeting-banner {
@@ -149,7 +142,7 @@ img {
 .main-greeting-description {
 	width: 490px;
 	margin: 0 auto;
-  margin-bottom: 50px;
+
   text-align: center;
 	font-size: 14px;
 	line-height: 26px;
@@ -265,7 +258,7 @@ img {
 	width: 400px;
 	height: 256px;
 	box-sizing: border-box;
-  padding-top: 18px;
+  padding: 18px;
   margin-bottom: 0px;
   text-align: center;
   background-color: #81b3d2;
@@ -297,17 +290,18 @@ img {
 .others-features {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 59px;
+	padding-bottom: 15px;
   background-color: #eeeeee;
 }
 
 .advantages-wrapper {
 	width: 33.33%;
+  padding: 45px;
 }
 
 .caption {
   width: 160px;
-	padding-top: 45px;
+
   margin: 0 auto;
   margin-bottom: 25px;
 	text-align: center;
@@ -338,12 +332,14 @@ img {
 	font-size: 30px;
 	line-height: 30px;
   text-align: center;
+  margin: 0;
+  margin-bottom: 27px;
 }
 
 .offer {
 	width: 450px;
 	margin: 0 auto;
-	margin-bottom: 42px;
+	margin-bottom: 46px;
   font-size: 14px;
 	line-height: 23px;
 	text-align: center;
@@ -351,6 +347,7 @@ img {
 
 .pre-order {
 	position: relative;
+  padding-top: 30px;
 }
 
 .pre-order .search-btn {
@@ -360,8 +357,8 @@ img {
   padding-top: 30px;
   box-sizing: border-box;
 	margin: 0 auto;
-  font-size: 19px;
-	line-height: 25px;
+  font-size: 18px;
+	line-height: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #ffffff;
@@ -379,10 +376,11 @@ img {
 
 .search-form  {
 	position: absolute;
-	top: 260px;
+	top: 290px;
 	left: 315px;
 	width: 575px;
 	padding: 15px 45px ;
+  padding-top: 5px;
   padding-bottom: 45px;
 	box-sizing: border-box;
   font-size: 14px;
@@ -396,51 +394,50 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 460px;
-  margin: 0 auto;
+
+
   padding-top: 48px;
   padding-bottom: 55px;
   flex-direction: column;
 }
 
 .search-form-wrap  input {
-  padding: 0 2px;
+  padding: 5px;
   margin-bottom: 25px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 
 .arrival-block ,
 .departure-block  {
   position: relative;
-  margin-bottom: 10px;
-
 }
 
 .arrival-block {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 
 .arrival-block label,
 .departure-block label {
-  margin-right:  15px
+  margin-right:  21px
 }
 
 .arrival-block input,
 .departure-block input {
-  width: 315px;
-  padding-left: 10px;
+  width: 346px;
+  padding: 5px;
 
 }
 
 .calendar-block {
   position: absolute;
-  top: 0px;
-  right: 1px;
+  top: 5px;
+  right: 5px;
   width: 35px;
   height: 30px;
   background: transparent;
@@ -451,7 +448,7 @@ img {
 
 .number-tourists {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding-top: 5px;
 }
@@ -460,9 +457,7 @@ img {
 .number-tourists button {
   position: relative;
   display: block;
-  padding: 13px
-
-
+  padding: 13px 16px;
 
 }
 
@@ -477,18 +472,37 @@ img {
   margin-right: 40px;
 }
 
+.counter-item {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+
+}
+
 .tourist-counter input {
   display: block;
   width: 35px;
   text-align: center;
+  vertical-align: middle;
   padding-bottom: 0;
   margin-bottom: 0;
+  border-color: transparent;
 }
 
 .number-tourists-adult {
-  margin-right: 50px
+  margin-right: 50px;
 }
 
+.number-tourists-child {
+  margin-right: 10px;
+}
+
+
+.counter-down,
+.counter-up {
+  border-color: transparent;
+  background-color: #f2f2f2;
+}
 
 .counter-down::before {
   content: "";
@@ -532,13 +546,14 @@ img {
 	display: block;
 	width: 460px;
   padding: 13px;
-
+  padding-left: 10px;
 	margin: 10px auto;
   margin-top: 3px;
-
-  font-size: 21px;
+  box-sizing: border-box;
+  font-size: 19px;
 	line-height: 26px;
 	font-weight: bold;
+  text-transform: uppercase;
   background-color: #5496bd;
 	color: #ffffff;
 }
@@ -564,6 +579,7 @@ img {
 	justify-content: flex-start;
   align-items: center;
 	width: 100%;
+  margin-top: -5px;
   font-size: 14px;
 	line-height: 21px;
 	background: #5496bd url("../img/filter-background.jpg");
@@ -584,10 +600,14 @@ img {
 
 .sorting-block {
 	border: none;
-  margin: 27px 58px;
+  margin: 27px 60px;
   margin-bottom: 0;
-  margin-right: 44px;
+  margin-right: 49px;
 
+}
+
+.type-accommodation {
+  padding-left: 0;
 }
 
 .sorting-criteria {
@@ -596,6 +616,9 @@ img {
 	line-height: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
+  box-sizing: border-box;
+  padding-top: 1px;
+  padding-left: 3px;
 }
 
 .sort-item {
@@ -638,6 +661,7 @@ img {
 
 .price-controls {
 	position: relative;
+  width: 315px;
   height: 30px;
 	margin-bottom: 20px;
 	font-size: 0;
@@ -821,9 +845,18 @@ img {
 .resort-block {
   display: flex;
 	justify-content: flex-start;
-  align-items: flex-start;
+  align-items: c;
   padding: 28px 72px;
   border-bottom: 2px solid #e5e5e5;
+
+}
+
+.desert-block {
+  padding-top: 32px;
+}
+
+.villas-block {
+  padding-top: 31px;
 }
 
 .resort-picture {
@@ -942,26 +975,27 @@ img {
 	display: flex;
 	justify-content: flex-start;
   align-items: center;
-  padding: 24px 3px;
+  padding: 32px;
+
 
 }
 
 .name-site {
 	width: 33.33%;
-
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   text-transform: uppercase;
-	text-align: center;
-  margin-right: 190px;
-  padding-left: 60px;
-  box-sizing: border-box;
+  text-align: center;
+	 box-sizing: border-box;
+  padding-right: 45px;
+
 }
 
 .social {
 	width: 33.33%;
-  padding-right: 20px;
+
+
 }
 
 .social-list {
@@ -969,12 +1003,13 @@ img {
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-
+  margin: 0;
+  padding-left: 110px;
   list-style: none;
 }
 
 .social-list-item {
-	margin-right: 15px;
+	margin-right: 11px;
 }
 
 .social-icon {
@@ -1029,14 +1064,25 @@ img {
 .copyright {
 	position: relative;
 	display: flex;
+  justify-content: flex-end;
+  align-items: center;
 	width: 33.33%;
-  padding-left: 79px;
-  padding-top: 22px;
+  padding-right: 35px;
+  box-sizing: border-box;
 
+
+  font-size: 14px;
+  line-height: 26px;
+
+}
+
+.copyright span {
+  padding-right: 8px;
 }
 
 .copyright-link {
   width: 150px;
+  padding-top: 5px;
 }
 
 .copyright-link svg {
