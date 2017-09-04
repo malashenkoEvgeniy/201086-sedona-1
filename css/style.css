@@ -443,8 +443,8 @@ img {
 	position: absolute;
 	top: 290px;
 	left: 315px;
-	width: 575px;
-	padding: 15px 45px ;
+	width: 570px;
+	padding: 15px 54px ;
   padding-top: 5px;
   padding-bottom: 45px;
 	-webkit-box-sizing: border-box;
@@ -481,7 +481,6 @@ img {
 
 .search-form-wrap  input {
   padding: 5px;
-  margin-bottom: 25px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -494,10 +493,9 @@ img {
 .arrival-block ,
 .departure-block  {
   position: relative;
-}
-
-.arrival-block {
-  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
 
@@ -510,7 +508,6 @@ img {
 .departure-block input {
   width: 346px;
   padding: 5px;
-
 }
 
 .calendar-block {
@@ -526,6 +523,7 @@ img {
 }
 
 .number-tourists {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,6 +548,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -560,23 +559,18 @@ img {
 }
 
 .tourist-counter label {
-  margin-right: 40px;
+  margin-right: 38px;
 }
 
 .counter-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-left: auto;
-
 }
 
 .tourist-counter input {
   display: block;
-  width: 35px;
+  width: 40px;
   text-align: center;
   vertical-align: middle;
   padding-bottom: 0;
@@ -585,11 +579,11 @@ img {
 }
 
 .number-tourists-adult {
-  margin-right: 50px;
+  margin-right: 55px;
 }
 
-.number-tourists-child {
-  margin-right: 10px;
+.number-tourists-child label {
+  margin-right: 26px;
 }
 
 
@@ -706,7 +700,7 @@ img {
 	border: none;
   margin: 27px 60px;
   margin-bottom: 0;
-  margin-right: 49px;
+  margin-right: 50px;
 
 }
 
@@ -723,13 +717,13 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 1px;
-  padding-left: 3px;
+
 }
 
 .sort-item {
 	margin-bottom: 25px;
   margin-left: 5px;
-  padding-left: 35px;
+  padding-left: 37px;
   cursor: pointer;
 }
 
@@ -740,8 +734,8 @@ img {
 .sort-item label::before {
   content: "";
   position: absolute;
-  top: -1px;
-  left: -37px;
+  top: -2px;
+  left: -40px;
   width: 24px;
   height: 24px;
   background: url("../img/checkbox-off.svg") no-repeat;
@@ -767,6 +761,8 @@ img {
 
 .price-controls {
 	position: relative;
+  display: flex;
+  align-items: center;
   width: 315px;
   height: 30px;
 	margin-bottom: 20px;
@@ -801,7 +797,15 @@ img {
 .price-controls .max-price {
   width: 90px;
   padding-left: 60px;
-  margin-top: -3px;
+
+}
+
+.price-controls .min-price{
+  padding-left: 66px;
+}
+
+.price-controls .max-price {
+  padding-left: 56px;
 }
 
 .price-controls input {
@@ -1141,13 +1145,13 @@ img {
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0;
   margin: 0;
-  padding-left: 110px;
+
   list-style: none;
 }
 
