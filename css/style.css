@@ -480,7 +480,8 @@ img {
 }
 
 .search-form-wrap  input {
-  padding: 5px;
+  padding: 2px;
+  padding-left: 10px;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -493,9 +494,13 @@ img {
 .arrival-block ,
 .departure-block  {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  margin-bottom: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 26px;
 }
 
 
@@ -508,6 +513,7 @@ img {
 .departure-block input {
   width: 346px;
   padding: 5px;
+  padding-left: 11px;
 }
 
 .calendar-block {
@@ -560,6 +566,7 @@ img {
 
 .tourist-counter label {
   margin-right: 38px;
+  padding-left: 2px;
 }
 
 .counter-item {
@@ -596,8 +603,8 @@ img {
 .counter-down::before {
   content: "";
   position: absolute;
-  top: 13px;
-  left: 10px;
+  top: 14px;
+  left: 13px;
   width: 12px;
   border-bottom: 3px solid #939393;
 }
@@ -761,8 +768,12 @@ img {
 
 .price-controls {
 	position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 315px;
   height: 30px;
 	margin-bottom: 20px;
@@ -856,7 +867,7 @@ img {
 }
 
 .range-toggle-max {
-  left: 80%;
+  left: 77%;
 }
 
 .btn-transparent {
@@ -893,13 +904,15 @@ img {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 	border-bottom: 2px solid #e5e5e5;
-	padding-bottom: 12px;
+	padding: 28px 72px;
 }
 
 .response {
-  padding-top: 11px;
-  margin-left:  74px;
+  margin: 0;
   margin-right: 47px;
   font-size: 21px;
   line-height: 20px;
@@ -907,7 +920,8 @@ img {
 }
 
 .response-description {
-  margin-top: 35px;
+  margin: 0;
+  margin-right: 31px;
 
   font-size: 12px;
   line-height: 18px;
@@ -921,8 +935,7 @@ img {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	width: 235px;
-	margin-top:  30px;
-  margin-left: 30px;
+  margin: 0;
   padding: 5px 10px;
 }
 
@@ -944,11 +957,9 @@ img {
 
 .sort-up-down {
 
-	padding-top: 30px;
-  padding-right: 35px;
+
   margin-left: auto;
-  margin-right: 35px;
-  text-align: right;
+
 }
 
 .sort-up {
@@ -971,9 +982,9 @@ img {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-  -webkit-box-align: c;
-      -ms-flex-align: c;
-          align-items: c;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
   padding: 28px 72px;
   border-bottom: 2px solid #e5e5e5;
 
@@ -1003,9 +1014,7 @@ img {
 .resort-desciption h2 {
   margin: 0;
   padding: 0;
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
+
 
 
 }
