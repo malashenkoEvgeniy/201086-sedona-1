@@ -1075,7 +1075,7 @@ img {
 	background-color: #604e43;
 }
 
-.price-block a:acive {
+.price-block a:active {
 	background-color: #503e33;
 	color: rgba(255, 255, 255, 0.3);
 }
@@ -1167,7 +1167,7 @@ img {
 	left: 0px;
 	width: 46px;
 	height: 46px;
-	background: #5496bd url("../img/twitter.svg") no-repeat 50% 50% ;
+	background: #81b3d2 url("../img/twitter.svg") no-repeat 50% 50% ;
 }
 
 
@@ -1178,7 +1178,7 @@ img {
 	left: 0px;
 	width: 46px;
 	height: 46px;
-	background: #5496bd url("../img/fb-icon.svg") no-repeat 50% 50% ;
+	background: #81b3d2 url("../img/fb-icon.svg") no-repeat 50% 50% ;
 }
 
 .youtube::before {
