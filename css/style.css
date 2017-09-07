@@ -647,7 +647,7 @@ img {
 
 .map-navigation {
 	width: 1200px;
-	min-height: 475px;
+	min-height: 470px;
 	overflow: hidden;
 	background: #f2f1ef url("../img/main-map.jpg") no-repeat;
 }
@@ -1068,6 +1068,8 @@ img {
 .stars {
 	border: none;
 	background-color: transparent;
+  padding: 0;
+
 }
 
 .rating-hotel {
@@ -1088,7 +1090,7 @@ img {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	padding: 32px;
+	padding: 28px 32px 32px;
 }
 
 .name-site {
