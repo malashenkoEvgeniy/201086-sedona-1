@@ -514,7 +514,7 @@ img {
 	height: 30px;
 	background: transparent;
 	border: none;
-	opacity: 0.3;
+	color: #cccccc;
 }
 
 .arrival-block .calendar-block:hover,
@@ -968,7 +968,7 @@ img {
 }
 
 .passive {
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .search-result {
@@ -1019,6 +1019,7 @@ img {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
+  color: #000000;
 }
 
 .resort-header:hover {
@@ -1074,7 +1075,7 @@ img {
 	background-color: #604e43;
 }
 
-.price-block a:hover {
+.price-block a:acive {
 	background-color: #503e33;
 	color: rgba(255, 255, 255, 0.3);
 }
