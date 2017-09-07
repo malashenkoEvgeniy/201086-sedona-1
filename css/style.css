@@ -1156,39 +1156,38 @@ img {
 .social-icon {
 	position: relative;
 	display: block;
-	padding: 6px 20px;
+	width: 46px;
+  height: 46px;
 	font-size: 0;
+  background-color: #81b3d2;
 }
 
 .twitter::before {
 	content: "";
 	position: absolute;
-	top: -4px;
-	left: 0px;
+
 	width: 46px;
 	height: 46px;
-	background: #81b3d2 url("../img/twitter.svg") no-repeat 50% 50% ;
+	background: url("../img/twitter.svg") no-repeat 50% 50% ;
 }
 
 
 .facebook::before {
 	content: "";
 	position: absolute;
-	top: -4px;
-	left: 0px;
+
 	width: 46px;
 	height: 46px;
-	background: #81b3d2 url("../img/fb-icon.svg") no-repeat 50% 50% ;
+	background:  url("../img/fb-icon.svg") no-repeat 50% 50% ;
 }
 
 .youtube::before {
 	content: "";
 	position: absolute;
-	top: -4px;
-	left: 0px;
+
 	width: 46px;
 	height: 46px;
-	background: #81b3d2 url("../img/youtube.svg") no-repeat 50% 50% ;
+	background: url("../img/youtube.svg") no-repeat 50% 50% ;
 }
 
 .social-icon:hover::before {
@@ -1197,7 +1196,7 @@ img {
 
 .social-icon:active::before {
 	background-color: #5496bd;
-	color: rgba(255, 255, 255, 0.3);
+	opacity: 0.3;
 }
 
 .copyright {
