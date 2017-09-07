@@ -387,7 +387,7 @@ img {
 
 .pre-order .search-btn:active {
 	background-color: #503e33;
-	opacity: 0.3;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 @-webkit-keyframes bounce {
@@ -500,6 +500,12 @@ img {
 	padding-left: 11px;
 }
 
+
+.arrival-block input:focus,
+.departure-block input:focus {
+	background-color: transparent;
+}
+
 .calendar-block {
 	position: absolute;
 	top: 5px;
@@ -509,6 +515,16 @@ img {
 	background: transparent;
 	border: none;
 	opacity: 0.3;
+}
+
+.arrival-block .calendar-block:hover,
+.departure-block .calendar-block:hover  {
+  color: #000000;
+}
+
+.arrival-block .calendar-block:active,
+.departure-block .calendar-block:active  {
+  color: #81b3d2;
 }
 
 .number-tourists {
@@ -642,7 +658,7 @@ img {
 
 .search-submit:active {
 	background-color: #5496bd;
-	opacity: 0.3;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .map-navigation {
@@ -916,22 +932,26 @@ img {
 	width: 235px;
 	margin: 0;
 	padding: 5px 10px;
+
 }
 
 .sort-in a {
 	font-size: 12px;
 	line-height: 18px;
+  border-bottom: 1px dashed #81b3d2;
 }
 
 .sort-in a:hover,
 .sort-up-down a:hover {
 	color: #81b3d2;
 	opacity: 1;
+  border-bottom: 1px dashed #81b3d2;
 }
 
 .sort-in a:active,
 .sort-up-down a:active {
 	color: #000000;
+  border-bottom: none;
 }
 
 .sort-up-down {
@@ -949,6 +969,10 @@ img {
 
 .passive {
 	opacity: 0.3;
+}
+
+.search-result {
+  margin-bottom: 5px;
 }
 
 .resort-block {
@@ -998,11 +1022,11 @@ img {
 }
 
 .resort-header:hover {
-	background-color: #81b3d2;
+	color: #81b3d2;
 }
 
 .resort-header:active {
-	background-color: #b2b2b2;
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .hotels-wrap {
@@ -1034,7 +1058,7 @@ img {
 
 .hotel-block a:active {
 	background-color: #5496bd;
-	opacity: 0.3;
+	color: rgba(255, 255, 255, 0.3);
 }
 .price-block span {
 	padding-left: 2px;
@@ -1052,7 +1076,7 @@ img {
 
 .price-block a:hover {
 	background-color: #503e33;
-	opacity: 0.3;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .rating-block {
@@ -1163,7 +1187,7 @@ img {
 	left: 0px;
 	width: 46px;
 	height: 46px;
-	background: #5496bd url("../img/youtube.svg") no-repeat 50% 50% ;
+	background: #81b3d2 url("../img/youtube.svg") no-repeat 50% 50% ;
 }
 
 .social-icon:hover::before {
@@ -1172,7 +1196,7 @@ img {
 
 .social-icon:active::before {
 	background-color: #5496bd;
-	opacity: 0.3;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .copyright {
