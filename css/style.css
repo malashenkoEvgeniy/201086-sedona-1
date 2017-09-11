@@ -1,5 +1,5 @@
 body {
-  min-width: 1200px;
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -72,14 +72,13 @@ img {
 }
 
 .site-navigation li {
-  width: 20%;
+	width: 20%;
 }
 
 .site-navigation .centerer {
-  padding: 0 38px;
-  width: 10px;
-  height: 10px;
-  border: 1px solid transparent;
+	width: 8%;
+	height: 10px;
+	border: 1px solid transparent;
 
 }
 
@@ -463,7 +462,7 @@ img {
 	-ms-flex-align: center;
 	align-items: center;
 	padding-top: 48px;
-	padding-bottom: 55px;
+	padding-bottom: 20px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -473,6 +472,7 @@ img {
 .search-form-wrap input {
 	padding: 2px;
 	padding-left: 10px;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: bold;
@@ -524,12 +524,12 @@ img {
 
 .arrival-block .calendar-block:hover,
 .departure-block .calendar-block:hover  {
-  color: #000000;
+	color: #000000;
 }
 
 .arrival-block .calendar-block:active,
 .departure-block .calendar-block:active  {
-  color: #81b3d2;
+	color: #81b3d2;
 }
 
 .number-tourists {
@@ -544,6 +544,7 @@ img {
 	-ms-flex-align: center;
 	align-items: center;
 	padding-top: 5px;
+	margin-bottom: 35px;
 }
 
 .number-tourists button {
@@ -584,16 +585,16 @@ img {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 14px;
-  line-height: 26px;
-  padding-bottom: 0;
+	line-height: 26px;
+	padding-bottom: 0;
 	margin-bottom: 0;
 	border-color: transparent;
 }
 
 .counter-item .counter-visitors-child {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-right: 8px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 8px;
 }
 
 .number-tourists-adult {
@@ -675,12 +676,12 @@ img {
 }
 
 .map-navigation {
-  position: relative;
+	position: relative;
 	width: 1200px;
 	min-height: 470px;
 	overflow: hidden;
 	background: #f2f1ef url("../img/main-map.jpg") no-repeat;
-  z-index: 1;
+	z-index: 1;
 }
 
 
@@ -707,11 +708,12 @@ img {
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 21px;
+	padding-left: 1px;
 }
 
 .filter-search input[type="checkbox"] {
 	position: absolute;
-  opacity: 0;
+	opacity: 0;
 
 }
 
@@ -764,22 +766,26 @@ img {
 	background: transparent  url("../img/checkbox-on.svg") no-repeat;
 }
 
+.sort-item input:focus + label::before {
+	opacity: 0.6;
+}
+
 .filter-range-wrap {
-  display: inherit;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-left: auto;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding-top: 28px;
+	display: inherit;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-left: auto;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	padding-top: 28px;
 }
 
 .filter-range {
 	width: 330px;
 	margin-top: 0;
-  padding-top: 0px;
+	padding-top: 0px;
 	-ms-flex-item-align: start;
 	align-self: flex-start;
 }
@@ -851,7 +857,6 @@ img {
 	font: inherit;
 	background: none;
 	border: none;
-
 }
 
 .range-controls {
@@ -894,7 +899,7 @@ img {
 .btn-transparent {
 	display: block;
 	width: 139px;
-	padding: 6px 25px 6px 25px;
+	padding: 6px 26px 6px 25px;
 	margin: 0 auto;
 	font-size: 14px;
 	line-height: 20px;
@@ -904,7 +909,6 @@ img {
 	border: 2px solid #ffffff;
 	border-radius: 2px;
 	cursor: pointer;
-  box-sizing: border-box;
 }
 
 .btn-transparent:hover {
@@ -961,8 +965,8 @@ img {
 .sort-in a {
 	font-size: 12px;
 	line-height: 18px;
-  font-weight: normal;
-  border-bottom: 1px dashed #81b3d2;
+	font-weight: normal;
+	border-bottom: 1px dashed #81b3d2;
 }
 
 .sort-in a:hover,
@@ -975,7 +979,7 @@ img {
 .sort-in a:active,
 .sort-up-down a:active {
 	color: #000000;
-  border-bottom: none;
+	border-bottom: none;
 }
 
 .sort-up-down {
@@ -993,7 +997,7 @@ img {
 
 .sort-in .active,
 .sort-up-down .active {
-  border-bottom: none;
+	border-bottom: none;
 }
 
 
@@ -1049,7 +1053,7 @@ img {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
-  color: #000000;
+	color: #000000;
 }
 
 .resort-header:hover {
@@ -1135,13 +1139,17 @@ img {
 	color: #666666;
 }
 
+.main-footer-wrap {
+  position: relative;
+}
+
 .main-footer {
-  position: absolute;
-  bottom: -2120px;
+	position: absolute;
+	bottom: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-  width: 1135px;
+	width: 1135px;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
@@ -1149,13 +1157,13 @@ img {
 	-ms-flex-align: center;
 	align-items: center;
 	padding: 28px 32px 32px;
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index: 2;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 2;
 }
 
 .main-footer-hotel {
-  bottom: -295px;
-  background-color: rgba(255, 255, 255, 1);
+	position: static;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .name-site {
@@ -1190,32 +1198,29 @@ img {
 }
 
 .social-list-item {
-	margin-right: 8px;
+	margin-right: 6px;
 }
 
 .social-icon {
 	position: relative;
 	display: block;
 	width: 46px;
-  height: 46px;
+	height: 46px;
 	font-size: 0;
-  background-color: #81b3d2;
+	background-color: #81b3d2;
 }
 
 .twitter::before {
 	content: "";
 	position: absolute;
-
 	width: 46px;
 	height: 46px;
 	background: url("../img/twitter.svg") no-repeat 50% 50% ;
 }
 
-
 .facebook::before {
 	content: "";
 	position: absolute;
-
 	width: 46px;
 	height: 46px;
 	background:  url("../img/fb-icon.svg") no-repeat 50% 50% ;
@@ -1224,7 +1229,6 @@ img {
 .youtube::before {
 	content: "";
 	position: absolute;
-
 	width: 46px;
 	height: 46px;
 	background: url("../img/youtube.svg") no-repeat 50% 50% ;
