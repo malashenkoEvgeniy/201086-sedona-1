@@ -45,12 +45,12 @@ img {
 
 .main-header-logo {
 	position: absolute;
-	top: -5px;
+	top: 0;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
-	z-index: -999;
+	z-index: 999;
 }
 
 .site-navigation {
@@ -75,18 +75,12 @@ img {
   width: 20%;
 }
 
-
-.site-navigation li:nth-child(2) {
-
-}
-
 .site-navigation .centerer {
-  padding: 0px;
+  padding: 0 38px;
   width: 10px;
   height: 10px;
-  border: 2px solid red;
-  position: fixed;
-  left: 20%;
+  border: 1px solid transparent;
+
 }
 
 .site-navigation-item:hover {
@@ -715,8 +709,9 @@ img {
 }
 
 .filter-search input[type="checkbox"] {
-	position: relative;
-	display: none;
+	position: absolute;
+  opacity: 0;
+
 }
 
 .sorting-block {
@@ -893,12 +888,10 @@ img {
 
 .btn-transparent {
 	display: block;
-
 	min-width: 100px;
 	padding: 6px 35px;
   padding-right: 27px;
 	margin: 0 auto;
-
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -1153,6 +1146,11 @@ img {
 	padding: 28px 32px 32px;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: 2;
+}
+
+.main-footer-hotel {
+  bottom: -295px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .name-site {
