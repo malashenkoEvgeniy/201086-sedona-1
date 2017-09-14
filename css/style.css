@@ -206,12 +206,13 @@ img {
 	justify-content: flex-start;
   flex-wrap: wrap;
 	text-align: center;
-	padding: 132px 0 63px 0;
+	padding: 78px 0 63px 0;
 }
 
 .feature {
 	position: relative;
 	padding: 0;
+  padding-top: 55px;
 	font-size: 14px;
 	line-height: 21px;
   width: 33.33%;
@@ -226,14 +227,12 @@ img {
 
 .house {
 	width: 33.33%;
-  padding-left: 10px;
-
 }
 
 .house::before {
 	content: "";
 	position: absolute;
-	top: -72px;
+	top: -18px;
 	left: 40%;
 	width: 76px;
 	height: 72px;
@@ -247,7 +246,7 @@ img {
 .food::before {
 	content: "";
 	position: absolute;
-	top: -72px;
+	top: -18px;
 	left: 40%;
 	width: 76px;
 	height: 70px;
@@ -261,7 +260,7 @@ img {
 .souvenir::before {
 	content: "";
 	position: absolute;
-	top: -78px;
+	top: -20px;
 	left: 42%;
 	width: 64px;
 	height: 76px;
