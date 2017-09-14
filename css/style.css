@@ -382,6 +382,7 @@ img {
 	text-transform: uppercase;
 	color: #ffffff;
 	background-color: #766357;
+  border: none;
 }
 
 .pre-order .search-btn:hover {
@@ -433,7 +434,7 @@ img {
 
 .search-form {
 	position: absolute;
-	top: 290px;
+	top: 285px;
 	left: 315px;
 	width: 570px;
 	padding: 15px 54px ;
@@ -472,7 +473,7 @@ img {
 .search-form-wrap input {
 	padding: 2px;
 	padding-left: 10px;
-	font-family: "PT Sans", "Arial", sans-serif;
+	font-family: inherit;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: bold;
@@ -503,6 +504,8 @@ img {
 	width: 346px;
 	padding: 5px;
 	padding-left: 11px;
+  border: none;
+  font-family: inherit;
 }
 
 
@@ -664,6 +667,7 @@ img {
 	text-transform: uppercase;
 	background-color: #5496bd;
 	color: #ffffff;
+  border: none;
 }
 
 .search-submit:hover {
